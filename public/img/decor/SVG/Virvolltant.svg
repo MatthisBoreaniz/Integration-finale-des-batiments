@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98.5 90.27">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #683c11;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="virevoltant">
+    <path class="cls-1" d="M45.64,1S-12.66,6.55,3.99,63c16.66,56.45,89.3,4.37,89.3,4.37,0,0,19.9-70.53-26.84-54.8"/>
+    <path class="cls-1" d="M57.66,28.76s45.81,22.15-10.18,38.61"/>
+    <path class="cls-1" d="M40.55,39.34c1.58,10.33-28.86,49.28,34.7,29.56,12.04-3.74,13.53-23.76,13.53-23.76,0,0-73.85-76.99-69.69,15.55l4.8,12.03S30.43.53,61.4,51.89c0,0-9.86,19.89-20.85-12.55Z"/>
+    <path class="cls-1" d="M61.4,4.23S-3.87-3.23,13.71,67.36"/>
+  </g>
+</svg>

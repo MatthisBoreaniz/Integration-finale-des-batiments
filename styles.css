@@ -1,0 +1,388 @@
+@import url(/vendors/normalize.css);
+
+.body {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: purple;
+  
+}
+
+
+div {
+  height: 100vh;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+}
+
+#montagne
+{
+  
+    .cls-1 {
+      fill: #9d9d9c;
+      stroke-width: 0px;
+    }
+
+    .cls-2 {
+      fill: #706f6f;
+      stroke: #1d1d1b;
+      stroke-miterlimit: 10;
+      stroke-width: .5px;
+    }
+
+}
+.Montagne_grise {
+  height: 60vh;
+}
+
+
+#Route
+
+  .cls-1 {
+    stroke: #706f6f;
+  }
+
+  .cls-1, .cls-2 {
+    stroke-miterlimit: 10;
+
+  }
+
+  .cls-2 {
+    fill: #fff;
+    stroke: #1d1d1b;
+    
+  }
+
+  #Route {
+    width: 100%;
+    margin: 0;
+  }
+  #Route.route_noire {
+    width: 100%;
+    margin: 0;
+  }
+
+
+ #lune{
+
+  .cls-1 {
+    fill: #fec422;
+    stroke-width: 0px;
+  }
+
+  .cls-2 {
+    fill: #faea9a;
+    stroke: #1d1d1b;
+    stroke-miterlimit: 10;
+    stroke-width: .5px;
+  }
+ }
+  
+ .lune_jaune {
+  padding: 25px;
+  top: 0;
+  height: 20vh;
+  position: absolute;
+ }
+ 
+ #panneau {
+ 
+    .cls-1 {
+      fill: #6a3500;
+      stroke: #1d1d1b;
+      stroke-miterlimit: 10;
+      stroke-width: .5px;
+    }
+ }
+
+ .panneau_brun {
+  position: absolute;
+  height: 15%;
+  margin-left: 50px;
+ }
+
+ 
+#Lampadaire { 
+  
+  .cls-1 {
+    fill: #575756;
+  }
+
+  .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+    stroke: #1d1d1b;
+    stroke-miterlimit: 10;
+  }
+
+  .cls-1, .cls-4, .cls-5 {
+    stroke-width: .25px;
+  }
+
+  .cls-2, .cls-3 {
+    stroke-width: .5px;
+  }
+
+  .cls-3 {
+    fill: #3c3c3b;
+  }
+
+  .cls-4 {
+    fill: #f9b233;
+  }
+
+  .cls-6 {
+   
+    stroke-width: 0px;
+    
+  }
+
+  .cls-5 {
+    fill: #82368c;
+  }
+
+}
+
+.lampadaire_noir {
+  
+  position: absolute;
+  height: 30%;
+  margin-left: 20rem;
+  z-index: 3;
+}
+.lampadaire_noir1 {
+  
+  position: absolute;
+  height: 30%;
+  margin-left: 40rem;
+  z-index: 3;
+}
+.lampadaire_noir2 {
+  
+  position: absolute;
+  height: 30%;
+  margin-left: 60rem;
+  z-index: 3;
+}
+.lampadaire_noir3 {
+  
+  position: absolute;
+  height: 30%;
+  margin-left: 80rem;
+  z-index: 3;
+}
+
+#toile {
+
+  .cls-1 {
+    fill: none;
+  }
+
+  .cls-1, .cls-2 {
+    stroke: white;
+    stroke-miterlimit: 10;
+    stroke-width: .5px;
+  }
+
+  .cls-2 {
+    fill: transparent;
+  }
+}
+
+.toile_areignee {
+  top: 0;
+  right: 0;
+  height: 30vh;
+  position: absolute;
+  transform: scale(-1);
+  transform: rotate(90deg);
+}
+
+#Bat {
+
+    .cls-1 {
+      fill: #312783;
+    }
+
+    .cls-1, .cls-2 {
+      stroke-width: .25px;
+    }
+
+    .cls-1, .cls-2, .cls-3 {
+      stroke: #1d1d1b;
+      stroke-miterlimit: 10;
+    }
+
+    .cls-2 {
+      fill: #f9b233;
+    }
+
+    .cls-3 {
+      fill: #1d1d1b;
+    }
+  
+}
+
+.Bat_fly {
+  top: 30%;
+  right: 0;
+  height: 10vh;
+  position: absolute;
+  
+}
+
+#fetes {
+ 
+    .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+      stroke: white;
+      stroke-miterlimit: 10;
+    }
+
+    .cls-1, .cls-2, .cls-4, .cls-6 {
+      fill: none;
+    }
+
+    .cls-1, .cls-8 {
+      stroke-width: .5px;
+    }
+
+    .cls-2, .cls-5 {
+      stroke-width: .25px;
+    }
+
+    .cls-3 {
+      fill: #575756;
+    }
+
+    .cls-5, .cls-7, .cls-8 {
+      fill: transparent;
+    }
+
+    .cls-6 {
+      stroke-width: 2px;
+    }
+
+    .cls-9, .cls-10 {
+      fill: #ffa600;
+    }
+
+    .cls-10 {
+      stroke-width: 0px;
+    }
+  
+}
+
+.salle_fetes {
+
+  position: absolute;
+  height: 40%;
+  margin-left: 950px;
+
+}
+
+#Atria {
+  
+    .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+      stroke: white;
+      stroke-miterlimit: 10;
+      stroke-width: .5px;
+    }
+
+    .cls-1, .cls-2, .cls-4 {
+      fill: none;
+      stroke-width: .5px;
+    }
+
+    .cls-1, .cls-3, .cls-5 {
+      stroke-width: .5px;
+    }
+
+    .cls-3 {
+      fill: transparent;
+      stroke-width: .5px;
+    }
+
+    .cls-4 {
+      stroke-width: .5px;
+    }
+
+    .cls-5 {
+      fill: transparent;
+    }
+
+}
+
+.Atria_1 {
+  position: absolute;
+  height: 40%;
+  margin-left: 550px;
+}
+
+
+#lion {
+        .cls-1 {
+          stroke-width: .5px;
+        }
+  
+        .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+          stroke: #ffffff;
+          stroke-miterlimit: 10;
+        }
+  
+        .cls-1, .cls-2, .cls-4, .cls-5 {
+          fill: none;
+        }
+  
+        .cls-2 {
+          stroke-width: .25px;
+        }
+  
+        .cls-3 {
+          fill: white;
+        }
+  
+        .cls-3, .cls-5 {
+          stroke-width: .1px;
+        }
+  
+}
+
+.lion_1 {
+  height: 20vh;
+  margin-left: 335px;
+}
+
+#Lune:hover {
+  opacity: 0;
+  transform: translate(-100px, -100px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+#Virvoltant {
+  
+    .cls-1 {
+      fill: none;
+      stroke: #75471f;
+      stroke-miterlimit: 10;
+      stroke-width: 2px;
+    }
+    opacity: 0;
+  
+}
+
+.virvoltant_jour {
+  position: absolute;
+  height: 10vh;
+  margin-left: 0;
+  top: 80%;
+}
+
+.btn  {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  padding: 10px;
+  background-color: #F9EB9B;
+  color: rgb(31, 2, 2);
+}

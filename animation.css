@@ -1,0 +1,124 @@
+@keyframes bounce {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotateX(45deg); }
+    100% { transform: rotate(0deg); }
+  }
+  .animation_ailes{
+    
+        transform-origin: 50% 50%; /* Ajustez ces valeurs pour changer le point autour duquel les ailes pivotent */
+        animation: bounce 1s infinite;
+      
+  }
+
+  @keyframes chauve-souris_traversée {
+    0% { 
+      transform: translateX(100%) scaleX(1); 
+    }
+    50% { 
+      transform: translateX(-1800%) scaleX(1); 
+    }
+    51% { 
+      transform: translateX(-1800%) scaleX(-1); 
+    }
+    100% { 
+      transform: translateX(100%) scaleX(-1); 
+    
+    }
+  }
+ 
+
+  #Bat {
+    position: absolute;
+    animation: chauve-souris_traversée 20s linear infinite;
+  }
+
+  @keyframes gradient {
+    0%, 100% { background: #f9b233; }
+    50% { background: #ff0000; }
+    50% {transform: scale(2);}
+  }
+  
+  
+  @keyframes fill {
+    0%, 100% { fill: yellow; }
+    25%, 75% { fill: rgb(255, 111, 0); }
+    50% { fill: yellow; }
+  }
+  
+  .lampe_lampadaire {
+    stroke-width: 0px;
+    animation: fill 5s ease infinite;
+    
+  }
+  .lampe_lampadaire2 {
+    stroke-width: 0px;
+    animation: fill 12s ease infinite;
+    
+  }
+  .lampe_lampadaire3 {
+    stroke-width: 0px;
+    animation: fill 15s ease infinite;
+    
+  }
+  .lampe_lampadaire4 {
+    stroke-width: 0px;
+    animation: fill 8s ease infinite;
+    
+  }
+  @keyframes bounceBatiment {
+    0%, 100% { 
+      transform: translateY(0); 
+    }
+    50% { 
+      transform: translateY(-20px); 
+    }
+  }
+  .affiche-panneau {
+  animation: rotate 3s ease infinite;
+  transform-origin: center;
+  fill: rgba(241, 80, 11, 0.789);
+  transition: transform 0.5s; /* Ajoute une transition */
+}
+
+.Atria_1:hover {
+  animation: bounceBatiment 1s infinite;
+}
+.lion_1:hover {
+  animation: bounceBatiment 1s infinite;
+}
+.salle_fetes:hover {
+  animation: bounceBatiment 1s infinite;
+}
+
+
+
+
+.toile_areignee {
+  animation: BounceToile 1s infinite;
+  
+}
+
+@keyframes traverse {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  20% {
+    transform: translateX(20vw) translateY(-10vh);
+  }
+  40% {
+    transform: translateX(40vw) translateY(0vh);
+  }
+  60% {
+    transform: translateX(60vw) translateY(10vh);
+  }
+  80% {
+    transform: translateX(80vw) translateY(0vh);
+  }
+  100% {
+    transform: translateX(100vw) translateY(-10vh);
+  }
+}
+
+#Virvoltant {
+  animation: traverse 5s cubic-bezier(0.42, 0, 0.58, 1) infinite;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190.9 190.9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff8501;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #ffe55f;
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+        stroke-width: .5px;
+      }
+    </style>
+  </defs>
+  <g id="lune">
+    <circle class="cls-2" cx="95.45" cy="95.45" r="95.2"/>
+    <circle class="cls-1" cx="53.15" cy="49.15" r="8.85"/>
+    <ellipse class="cls-1" cx="103" cy="124.34" rx="2.95" ry="6.57"/>
+    <ellipse class="cls-1" cx="137.47" cy="54.38" rx="11.16" ry="18.05"/>
+    <ellipse class="cls-1" cx="47.05" cy="147.64" rx="6.1" ry="12.8"/>
+  </g>
+</svg>
